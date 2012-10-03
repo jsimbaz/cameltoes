@@ -32,7 +32,7 @@ int main(int argc, char** argv) { //motherfucking netbeans motherfucking java br
     
     i = 0;
     
-    while(i<10) {
+    while(1) {
         cout << "Hello Cunt\n";
         i++;
     }
