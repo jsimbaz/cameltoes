@@ -26,7 +26,7 @@ int main(int argc, char** argv) { //motherfucking netbeans motherfucking java br
     do {
         cout << "Hello Cunt\n";
         i++;
-    } while(i<10); //this is a do while loop....because your a tard
+    } while(i<10); //this is a do while loop....because you're a tard
     
     cout << "Next\n\n";
     
