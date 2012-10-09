@@ -19,11 +19,12 @@ CCC=g++
 CXX=g++
 FC=gfortran
 AS=as
+QMAKE=qmake
 
 # Macros
 CND_PLATFORM=GNU-MacOSX
 CND_DLIB_EXT=dylib
-CND_CONF=Release
+CND_CONF=Debug
 CND_DISTDIR=dist
 CND_BUILDDIR=build
 
@@ -34,8 +35,7 @@ include Makefile
 OBJECTDIR=${CND_BUILDDIR}/${CND_CONF}/${CND_PLATFORM}
 
 # Object Files
-OBJECTFILES= \
-	${OBJECTDIR}/main.o
+OBJECTFILES=
 
 
 # C Compiler Flags
@@ -54,31 +54,25 @@ ASFLAGS=
 # Link Libraries and Options
 LDLIBSOPTIONS=
 
+nbproject/qt-${CND_CONF}.mk: nbproject/qt-${CND_CONF}.pro FORCE
+	${QMAKE} VPATH=. -spec macx-g++ -o qttmp-${CND_CONF}.mk nbproject/qt-${CND_CONF}.pro
+	mv -f qttmp-${CND_CONF}.mk nbproject/qt-${CND_CONF}.mk
+
+FORCE:
+
 # Build Targets
-.build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hellocunt
+.build-conf: ${BUILD_SUBPROJECTS} nbproject/qt-${CND_CONF}.mk
+	"${MAKE}" -f nbproject/qt-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/QtApplication_1
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hellocunt: ${OBJECTFILES}
-	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.cc} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hellocunt ${OBJECTFILES} ${LDLIBSOPTIONS} 
-
-${OBJECTDIR}/main.o: main.cpp 
-	${MKDIR} -p ${OBJECTDIR}
-	${RM} $@.d
-	$(COMPILE.cc) -O2 -MMD -MP -MF $@.d -o ${OBJECTDIR}/main.o main.cpp
+${CND_BUILDDIR}/Debug/%.o: nbproject/qt-${CND_CONF}.mk
+	${MAKE} -f nbproject/qt-${CND_CONF}.mk "$@"
 
 # Subprojects
 .build-subprojects:
 
 # Clean Targets
-.clean-conf: ${CLEAN_SUBPROJECTS}
-	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/hellocunt
+.clean-conf: ${CLEAN_SUBPROJECTS} nbproject/qt-${CND_CONF}.mk
+	${MAKE} -f nbproject/qt-${CND_CONF}.mk distclean
 
 # Subprojects
 .clean-subprojects:
-
-# Enable dependency checking
-.dep.inc: .depcheck-impl
-
-include .dep.inc

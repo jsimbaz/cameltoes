@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=cppapplication_1
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/cppapplication_1
+CND_ARTIFACT_NAME_Debug=enumeratedtypes
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/enumeratedtypes
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=cppapplication1.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/cppapplication1.tar
+CND_PACKAGE_NAME_Debug=enumeratedtypes.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/enumeratedtypes.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=cppapplication_1
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/cppapplication_1
+CND_ARTIFACT_NAME_Release=enumeratedtypes
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/enumeratedtypes
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=cppapplication1.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/cppapplication1.tar
+CND_PACKAGE_NAME_Release=enumeratedtypes.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/enumeratedtypes.tar
 #
 # include compiler specific variables
 #

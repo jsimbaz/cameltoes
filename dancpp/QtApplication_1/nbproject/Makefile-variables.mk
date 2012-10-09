@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-MacOSX
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-MacOSX
-CND_ARTIFACT_NAME_Debug=hellocunt
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/hellocunt
+CND_ARTIFACT_NAME_Debug=QtApplication_1
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-MacOSX/QtApplication_1
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-MacOSX/package
-CND_PACKAGE_NAME_Debug=hellocunt.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/hellocunt.tar
+CND_PACKAGE_NAME_Debug=QtApplication1.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-MacOSX/package/QtApplication1.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-MacOSX
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-MacOSX
-CND_ARTIFACT_NAME_Release=hellocunt
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/hellocunt
+CND_ARTIFACT_NAME_Release=QtApplication_1
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-MacOSX/QtApplication_1
 CND_PACKAGE_DIR_Release=dist/Release/GNU-MacOSX/package
-CND_PACKAGE_NAME_Release=hellocunt.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/hellocunt.tar
+CND_PACKAGE_NAME_Release=QtApplication1.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-MacOSX/package/QtApplication1.tar
 #
 # include compiler specific variables
 #
