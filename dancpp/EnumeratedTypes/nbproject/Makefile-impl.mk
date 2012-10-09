@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=enumeratedtypes
+PROJECTNAME=EnumeratedTypes
 
 # Active Configuration
 DEFAULTCONF=Debug
