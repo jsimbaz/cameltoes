@@ -13,7 +13,7 @@
  *           COLOR_BLUE, this would == -2
  *           COLOR_RED, this would == -1 (and so on
  *           COLOR_GINGER = 5,
- *           COLOR_PUBES this would == 6 as another explicit value has been assigned
+ *           GINGER_PUBES this would == 6 as another explicit value has been assigned
  *          };
  *
  * Enumerated types would be useful would be good for returning error codes
