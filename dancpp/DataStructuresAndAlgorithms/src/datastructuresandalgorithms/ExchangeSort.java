@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class ExchangeSort {
 
     public static void main(String[] args) {
-        boolean swapped = true;
+
         int[] numberList = new int[10];
         String unSorted;
         Scanner scan = new Scanner(System.in);
@@ -31,6 +31,22 @@ public class ExchangeSort {
             numberList[i] = Integer.parseInt(tempString);
         }
 
+        sort(numberList);
+
+        //End sort and print result
+        System.out.print("Result: ");
+        for (int i = 0; i < 10; i++) {
+            System.out.print(numberList[i]);
+        }
+        System.out.println("");
+
+
+    }
+
+    //Exchange sorting method
+    private static void sort(int[] numberList) {
+        boolean swapped = true;
+
         //Start exchange sort
         while (swapped == true) {
             swapped = false;
@@ -47,14 +63,5 @@ public class ExchangeSort {
             }
 
         }
-        
-        //End sort and print result
-        System.out.print("Result: ");
-        for (int i = 0; i < 10; i++) {
-            System.out.print(numberList[i]);
-        }
-        System.out.println("");
-
-
     }
 }
