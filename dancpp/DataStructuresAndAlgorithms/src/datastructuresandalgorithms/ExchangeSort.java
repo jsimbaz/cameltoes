@@ -47,6 +47,7 @@ public class ExchangeSort {
             }
 
         }
+        
         //End sort and print result
         System.out.print("Result: ");
         for (int i = 0; i < 10; i++) {
