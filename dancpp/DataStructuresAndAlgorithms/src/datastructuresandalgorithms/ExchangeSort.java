@@ -1,4 +1,4 @@
-//Program description: Basic procedural program as an example of a bubble/exchange sort
+//Program Description: Basic procedural program as an example of a bubble/exchange sort
 //Program Creator: Daniel Hamilton
 package datastructuresandalgorithms;
 
